@@ -17,10 +17,10 @@ const Summary = ({ currentUser, setPostViewed }) => {
           <h1 className="pageTitle">Home</h1>
           <p>Must be Signed In to view this page</p>
           <div className="signInUp">
-            <Link to="/blog/sign-in" className="signInButton">
+            <Link to="/sign-in" className="signInButton">
               Sign In
             </Link>
-            <Link to="/blog/sign-up" className="signInButton">
+            <Link to="/sign-up" className="signInButton">
               Sign Up
             </Link>
           </div>

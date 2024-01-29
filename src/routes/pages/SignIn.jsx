@@ -46,10 +46,10 @@ const SignIn = ({ setUserToken, currentUser, setCurrentUser }) => {
         <div className="alreadySignedIn">
           <p>You are already Signed in!</p>
           <div className="buttonBox">
-            <Link to="/blog/sign-out" className="signOutButton">
+            <Link to="/sign-out" className="signOutButton">
               Sign Out
             </Link>
-            <Link to="/blog/profile" className="profileButton">
+            <Link to="/profile" className="profileButton">
               Profile
             </Link>
           </div>
